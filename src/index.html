@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion カレンダーウィジェット</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="calendar-widget">
+        <div id="calendar-header">
+            <div class="month-nav">
+                <button id="prev-month" class="nav-btn">＜</button>
+                <h2 id="current-month"></h2>
+                <button id="next-month" class="nav-btn">＞</button>
+            </div>
+            <div class="weekdays">
+                <span>日</span>
+                <span>月</span>
+                <span>火</span>
+                <span>水</span>
+                <span>木</span>
+                <span>金</span>
+                <span>土</span>
+            </div>
+        </div>
+        <div id="calendar-grid">
+            <!-- カレンダーの日付がここに挿入されます -->
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

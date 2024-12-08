@@ -1,0 +1,17 @@
+{
+  "name": "notion-calendar-widget",
+  "version": "1.0.0",
+  "description": "A simple calendar widget for Notion.",
+  "main": "src/scripts/main.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'No build process required.'"
+  },
+  "keywords": [
+    "notion",
+    "calendar",
+    "widget"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
